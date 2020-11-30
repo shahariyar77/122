@@ -1,0 +1,59 @@
+
+body{
+    padding: 0;
+    margin: 0;
+    font-family: Montserrat,Philosopher,Roboto;
+    
+}
+.special-bg::before{
+   background-image: url(img/kindpng_115790.png);
+}
+
+
+.section-padding {
+  margin: 150px 0;
+}
+.special-bg {
+  background: #f3f3f3;
+  border: 1px solid#ddd;
+  position: relative;
+  padding-left: 55%;
+  padding-right: 50px;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+.box-btn {
+  display: inline-block;
+  margin-top: 20px;
+  color: #333;
+  background: #1ed168;
+  padding: 15px 30px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+.special-bg:before {
+  position: absolute;
+  left: 0;
+  top: -40%;
+  height: 150%;
+  width: 50%;
+  content: "";
+  background-size: cover;
+  background-position: center top;
+}
+.special-bg::after {
+  position: absolute;
+  right: -40px;
+  bottom: -40px;
+  height: 100%;
+  width: 48.5%;
+  content: "";
+  border: 4px solid #a0bf40;
+  z-index: -1;
+}
+
+
+
+
+
+
